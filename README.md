@@ -1,6 +1,6 @@
 # classificacao-titanic
 
-1. Carregamento e pré-processamento dos dados.
+Carregamento e pré-processamento dos dados.
 Função carregar_dados: Insere três arquivos CSV: gender_submission.csv (gênero e previsão de sobrevivência), test.csv (dados de teste sem identificação), e train.csv (dados de treino com identificação de sobrevivência).
 
 Função limpar_dados: Elimina as linhas com valores ausentes (incompletos) tanto nos dados de treinamento quanto nos de teste, utilizando o método dropna(). Em seguida, as informações limpas são armazenadas novamente em arquivos CSV.
